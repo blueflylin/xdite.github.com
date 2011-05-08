@@ -180,7 +180,6 @@ table th {
 }
 /* line 156, ../src/master.scss */
 .post ul li {
-  list-style-type: disc;
   margin-top: 1em;
   margin-bottom: 1em;
 }
