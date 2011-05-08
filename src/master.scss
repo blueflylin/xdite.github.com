@@ -93,7 +93,6 @@ table th {
 
 #content {
    padding: 2em;
-   background: #E6E0D8;
    -moz-border-radius-bottomleft: 1em;
    -webkit-border-bottom-left-radius: 1em;
    -moz-border-radius-bottomright: 1em;
@@ -112,7 +111,7 @@ table th {
 
 #sidebar{
    margin-left: 1em;
-   background: #E6E0D8;
+
    float:left;
    width: 15em;
 }
@@ -179,7 +178,7 @@ table th {
 .title {
    background: #171717;
    padding: 0.3em 0.5em;
-   border-bottom: 3px solid #D4D4D4;
+
    margin-bottom: 0em;
    color: white; 
    a{ color: inherit; }
@@ -187,17 +186,16 @@ table th {
 }
 
 pre {
-  background: #f8f8f8;
-  border: 1px solid #E7E5DC;
-  border-width: 1px 0 4px 6px;
-  padding: 1em;
-  overflow: auto;
-  color: black;
-  line-height: 120%;
-  font-family: "Consolas","Courier New",Courier,mono;
-  font-size: 12px;
-  letter-spacing: 0; 
-  margin: 1em 0px;
+background: #EEE;
+border-width: 1px 0 4px 6px;
+padding: 1em;
+
+color: black;
+line-height: 120%;
+font-family: "Consolas","Courier New",Courier,mono;
+font-size: 12px;
+letter-spacing: 0; 
+margin: 1em 0px;
 }
 
 .topic {
@@ -249,5 +247,15 @@ pre {
     margin: 0.25em 0 1.5em 0;
 }
 
+.code_container {
+    background: #EEE url(/stylesheets/images/tab_grey.gif) no-repeat left top;
+    padding: 0.25em 1em 0.5em 48px;
+}
 
+.work-in-progress,.note {
+    background: #fff9d8 url(/stylesheets/images/tab_note.gif) no-repeat left top;
+    border: none;
+    padding: 1em 1em 0.25em 48px;
+    margin: 0.25em 0 1.5em 0;
+}
 

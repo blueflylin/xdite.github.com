@@ -120,7 +120,6 @@ table th {
 /* line 94, ../src/master.scss */
 #content {
   padding: 2em;
-  background: #E6E0D8;
   -moz-border-radius-bottomleft: 1em;
   -webkit-border-bottom-left-radius: 1em;
   -moz-border-radius-bottomright: 1em;
@@ -129,28 +128,27 @@ table th {
   border-bottom-right-radius: 1em;
 }
 
-/* line 107, ../src/master.scss */
+/* line 106, ../src/master.scss */
 #main {
   float: left;
   width: 40em;
 }
 
-/* line 113, ../src/master.scss */
+/* line 112, ../src/master.scss */
 #sidebar {
   margin-left: 1em;
-  background: #E6E0D8;
   float: left;
   width: 15em;
 }
 
-/* line 122, ../src/master.scss */
+/* line 121, ../src/master.scss */
 .post h1 {
   margin-top: 0.2em;
   margin-bottom: 0.67em;
   font-size: 2em;
   display: block;
 }
-/* line 127, ../src/master.scss */
+/* line 126, ../src/master.scss */
 .post h1 a {
   color: inherit;
   text-decoration: none;
@@ -162,36 +160,36 @@ table th {
   border-bottom: 1px dashed #dba;
   font-weight: bold;
 }
-/* line 139, ../src/master.scss */
+/* line 138, ../src/master.scss */
 .post h2 {
   font-size: 1.5em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
 }
-/* line 146, ../src/master.scss */
+/* line 145, ../src/master.scss */
 .post h3 {
   font-size: 1.17em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 152, ../src/master.scss */
+/* line 151, ../src/master.scss */
 .post ul {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 155, ../src/master.scss */
+/* line 154, ../src/master.scss */
 .post ul li {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 161, ../src/master.scss */
+/* line 160, ../src/master.scss */
 .post p {
   margin-top: 1em;
   margin-bottom: 1em;
   line-height: 140%;
   letter-spacing: -0.03em;
 }
-/* line 167, ../src/master.scss */
+/* line 166, ../src/master.scss */
 .post .date {
   padding: 0.4em 0.6em 0.3em;
   font-weight: bold;
@@ -200,27 +198,24 @@ table th {
   color: #000;
 }
 
-/* line 179, ../src/master.scss */
+/* line 178, ../src/master.scss */
 .title {
   background: #171717;
   padding: 0.3em 0.5em;
-  border-bottom: 3px solid #D4D4D4;
   margin-bottom: 0em;
   color: white;
   font-size: 1.5em;
 }
-/* line 185, ../src/master.scss */
+/* line 184, ../src/master.scss */
 .title a {
   color: inherit;
 }
 
-/* line 189, ../src/master.scss */
+/* line 188, ../src/master.scss */
 pre {
-  background: #f8f8f8;
-  border: 1px solid #E7E5DC;
+  background: #EEE;
   border-width: 1px 0 4px 6px;
   padding: 1em;
-  overflow: auto;
   color: black;
   line-height: 120%;
   font-family: "Consolas","Courier New",Courier,mono;
@@ -229,7 +224,7 @@ pre {
   margin: 1em 0px;
 }
 
-/* line 203, ../src/master.scss */
+/* line 201, ../src/master.scss */
 .topic {
   background: #FAD8AF;
   border: 2px solid #B89F80;
@@ -241,11 +236,11 @@ pre {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 213, ../src/master.scss */
+/* line 211, ../src/master.scss */
 .topic h3 {
   margin: 0 0 0.3em 0;
 }
-/* line 215, ../src/master.scss */
+/* line 213, ../src/master.scss */
 .topic h3 a {
   font-weight: bold;
   color: black;
@@ -253,7 +248,7 @@ pre {
   font-size: 1.1em;
 }
 
-/* line 224, ../src/master.scss */
+/* line 222, ../src/master.scss */
 #footer {
   margin: 0 auto 2em;
   color: #3E423A;
@@ -262,13 +257,13 @@ pre {
   text-align: center;
   width: 56em;
 }
-/* line 231, ../src/master.scss */
+/* line 229, ../src/master.scss */
 #footer a {
   color: #3E423A;
   font-weight: normal;
 }
 
-/* line 237, ../src/master.scss */
+/* line 235, ../src/master.scss */
 .warning {
   background: #f9d9d8 url(/stylesheets/images/tab_red.gif) no-repeat left top;
   border: none;
@@ -277,9 +272,23 @@ pre {
   margin-top: 0.25em;
 }
 
-/* line 245, ../src/master.scss */
+/* line 243, ../src/master.scss */
 .info {
   background: #d5e9f6 url(/stylesheets/images/tab_info.gif) no-repeat left top;
+  border: none;
+  padding: 1em 1em 0.25em 48px;
+  margin: 0.25em 0 1.5em 0;
+}
+
+/* line 250, ../src/master.scss */
+.code_container {
+  background: #eeeeee url(/stylesheets/images/tab_grey.gif) no-repeat left top;
+  padding: 0.25em 1em 0.5em 48px;
+}
+
+/* line 255, ../src/master.scss */
+.work-in-progress, .note {
+  background: #fff9d8 url(/stylesheets/images/tab_note.gif) no-repeat left top;
   border: none;
   padding: 1em 1em 0.25em 48px;
   margin: 0.25em 0 1.5em 0;
