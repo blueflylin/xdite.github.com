@@ -176,20 +176,22 @@ table th {
 .post ul {
   margin-top: 1em;
   margin-bottom: 1em;
+  padding-left: 40px;
 }
-/* line 154, ../src/master.scss */
+/* line 156, ../src/master.scss */
 .post ul li {
+  list-style-type: disc;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 160, ../src/master.scss */
+/* line 163, ../src/master.scss */
 .post p {
   margin-top: 1em;
   margin-bottom: 1em;
   line-height: 140%;
   letter-spacing: -0.03em;
 }
-/* line 166, ../src/master.scss */
+/* line 169, ../src/master.scss */
 .post .date {
   padding: 0.4em 0.6em 0.3em;
   font-weight: bold;
@@ -198,7 +200,7 @@ table th {
   color: #000;
 }
 
-/* line 178, ../src/master.scss */
+/* line 181, ../src/master.scss */
 .title {
   background: #171717;
   padding: 0.3em 0.5em;
@@ -206,12 +208,12 @@ table th {
   color: white;
   font-size: 1.5em;
 }
-/* line 184, ../src/master.scss */
+/* line 187, ../src/master.scss */
 .title a {
   color: inherit;
 }
 
-/* line 188, ../src/master.scss */
+/* line 191, ../src/master.scss */
 pre {
   background: #EEE;
   border-width: 1px 0 4px 6px;
@@ -224,7 +226,7 @@ pre {
   margin: 1em 0px;
 }
 
-/* line 201, ../src/master.scss */
+/* line 204, ../src/master.scss */
 .topic {
   background: #FAD8AF;
   border: 2px solid #B89F80;
@@ -236,11 +238,11 @@ pre {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 211, ../src/master.scss */
+/* line 214, ../src/master.scss */
 .topic h3 {
   margin: 0 0 0.3em 0;
 }
-/* line 213, ../src/master.scss */
+/* line 216, ../src/master.scss */
 .topic h3 a {
   font-weight: bold;
   color: black;
@@ -248,7 +250,7 @@ pre {
   font-size: 1.1em;
 }
 
-/* line 222, ../src/master.scss */
+/* line 225, ../src/master.scss */
 #footer {
   margin: 0 auto 2em;
   color: #3E423A;
@@ -257,13 +259,13 @@ pre {
   text-align: center;
   width: 56em;
 }
-/* line 229, ../src/master.scss */
+/* line 232, ../src/master.scss */
 #footer a {
   color: #3E423A;
   font-weight: normal;
 }
 
-/* line 235, ../src/master.scss */
+/* line 238, ../src/master.scss */
 .warning {
   background: #f9d9d8 url(/stylesheets/images/tab_red.gif) no-repeat left top;
   border: none;
@@ -272,7 +274,7 @@ pre {
   margin-top: 0.25em;
 }
 
-/* line 243, ../src/master.scss */
+/* line 246, ../src/master.scss */
 .info {
   background: #d5e9f6 url(/stylesheets/images/tab_info.gif) no-repeat left top;
   border: none;
@@ -280,13 +282,13 @@ pre {
   margin: 0.25em 0 1.5em 0;
 }
 
-/* line 250, ../src/master.scss */
+/* line 253, ../src/master.scss */
 .code_container {
   background: #eeeeee url(/stylesheets/images/tab_grey.gif) no-repeat left top;
   padding: 0.25em 1em 0.5em 48px;
 }
 
-/* line 255, ../src/master.scss */
+/* line 258, ../src/master.scss */
 .work-in-progress, .note {
   background: #fff9d8 url(/stylesheets/images/tab_note.gif) no-repeat left top;
   border: none;

@@ -139,7 +139,7 @@ layout: post
 **參考資料**
 
 * [rails-nginx-passenger-ubuntu](http://github.com/jnstq/rails-nginx-passenger-ubuntu)
-* AWDR3 的 deploy 章節 , Ruby Pocket Reference 的 [capistrano](http://www.capify.org/) 章節
+* AWDR4 的 deploy 章節 , Ruby Pocket Reference 的 [capistrano](http://www.capify.org/) 章節
 
 <hr>
 
