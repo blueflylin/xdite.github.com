@@ -98,5 +98,4 @@ gem install sphinx
 
 ### 設定 HTTP Server ###
 
-請使用 [Pow](/todo.html)
-#### TODO ####
+請使用 [Pow](/pow.html)
