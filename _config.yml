@@ -7,3 +7,5 @@ markdown:    maruku
 
 maruku:
    use_divs:  true
+  
+permalink: pretty  
