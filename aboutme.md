@@ -19,7 +19,7 @@ I am a Rails Developer since 2007. Now works for [Techbang](http://www.techbang.
 I am the manager also the lead developer of Techbang.
 
 <hr>
-Techbang is a technology portal websites. It have three channels : **[Techbang](http://techbang.com.tw)** 
+Techbang is a technology portal website. It have three channels : **[Techbang](http://techbang.com.tw)** 
 / **[Digiphoto](http://digiphoto.techbang.com.tw)** / **[Playgame](http://game.techbang.com.tw)**.
 Also have its forum [T17](http://t17.techbang.com.tw).
 
