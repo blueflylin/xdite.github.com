@@ -1,5 +1,5 @@
 --- 
-title: Pow + Gollum
+title: Pow + Jekyll
 layout: post
 ---
 
