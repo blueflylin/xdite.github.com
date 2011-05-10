@@ -35,5 +35,5 @@ run Rack::Jekyll.new
 </pre>
 
 <hr>
-因為 Markdown 實在不太夠用，其實我還用了 Maruku。
+因為 Markdown 實在不太夠用，其實我還用了 [Maruku](https://github.com/nex3/maruku)。
 

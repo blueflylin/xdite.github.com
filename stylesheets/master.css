@@ -127,28 +127,58 @@ table th {
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
 }
+/* line 102, ../src/master.scss */
+#content p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+}
+/* line 109, ../src/master.scss */
+#content h2 {
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+/* line 116, ../src/master.scss */
+#content h3 {
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* line 122, ../src/master.scss */
+#content ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 40px;
+}
+/* line 127, ../src/master.scss */
+#content ul li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
-/* line 106, ../src/master.scss */
+/* line 138, ../src/master.scss */
 #main {
   float: left;
   width: 40em;
 }
 
-/* line 112, ../src/master.scss */
+/* line 144, ../src/master.scss */
 #sidebar {
   margin-left: 1em;
   float: left;
   width: 15em;
 }
 
-/* line 121, ../src/master.scss */
+/* line 153, ../src/master.scss */
 .post h1 {
   margin-top: 0.2em;
   margin-bottom: 0.67em;
   font-size: 2em;
   display: block;
 }
-/* line 126, ../src/master.scss */
+/* line 158, ../src/master.scss */
 .post h1 a {
   color: inherit;
   text-decoration: none;
@@ -160,37 +190,7 @@ table th {
   border-bottom: 1px dashed #dba;
   font-weight: bold;
 }
-/* line 138, ../src/master.scss */
-.post h2 {
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-}
-/* line 145, ../src/master.scss */
-.post h3 {
-  font-size: 1.17em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-/* line 151, ../src/master.scss */
-.post ul {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding-left: 40px;
-}
-/* line 156, ../src/master.scss */
-.post ul li {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-/* line 163, ../src/master.scss */
-.post p {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  line-height: 140%;
-  letter-spacing: -0.03em;
-}
-/* line 169, ../src/master.scss */
+/* line 173, ../src/master.scss */
 .post .date {
   padding: 0.4em 0.6em 0.3em;
   font-weight: bold;
@@ -199,7 +199,7 @@ table th {
   color: #000;
 }
 
-/* line 181, ../src/master.scss */
+/* line 185, ../src/master.scss */
 .title {
   background: #171717;
   padding: 0.3em 0.5em;
@@ -207,12 +207,12 @@ table th {
   color: white;
   font-size: 1.5em;
 }
-/* line 187, ../src/master.scss */
+/* line 191, ../src/master.scss */
 .title a {
   color: inherit;
 }
 
-/* line 191, ../src/master.scss */
+/* line 195, ../src/master.scss */
 pre {
   background: #EEE;
   border-width: 1px 0 4px 6px;
@@ -225,7 +225,7 @@ pre {
   margin: 1em 0px;
 }
 
-/* line 204, ../src/master.scss */
+/* line 208, ../src/master.scss */
 .topic {
   background: #FAD8AF;
   border: 2px solid #B89F80;
@@ -237,11 +237,11 @@ pre {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 214, ../src/master.scss */
+/* line 218, ../src/master.scss */
 .topic h3 {
   margin: 0 0 0.3em 0;
 }
-/* line 216, ../src/master.scss */
+/* line 220, ../src/master.scss */
 .topic h3 a {
   font-weight: bold;
   color: black;
@@ -249,7 +249,7 @@ pre {
   font-size: 1.1em;
 }
 
-/* line 225, ../src/master.scss */
+/* line 229, ../src/master.scss */
 #footer {
   margin: 0 auto 2em;
   color: #3E423A;
@@ -258,13 +258,13 @@ pre {
   text-align: center;
   width: 56em;
 }
-/* line 232, ../src/master.scss */
+/* line 236, ../src/master.scss */
 #footer a {
   color: #3E423A;
   font-weight: normal;
 }
 
-/* line 238, ../src/master.scss */
+/* line 242, ../src/master.scss */
 .warning {
   background: #f9d9d8 url(/stylesheets/images/tab_red.gif) no-repeat left top;
   border: none;
@@ -273,7 +273,7 @@ pre {
   margin-top: 0.25em;
 }
 
-/* line 246, ../src/master.scss */
+/* line 250, ../src/master.scss */
 .info {
   background: #d5e9f6 url(/stylesheets/images/tab_info.gif) no-repeat left top;
   border: none;
@@ -281,13 +281,13 @@ pre {
   margin: 0.25em 0 1.5em 0;
 }
 
-/* line 253, ../src/master.scss */
+/* line 257, ../src/master.scss */
 .code_container {
   background: #eeeeee url(/stylesheets/images/tab_grey.gif) no-repeat left top;
   padding: 0.25em 1em 0.5em 48px;
 }
 
-/* line 258, ../src/master.scss */
+/* line 262, ../src/master.scss */
 .work-in-progress, .note {
   background: #fff9d8 url(/stylesheets/images/tab_note.gif) no-repeat left top;
   border: none;
